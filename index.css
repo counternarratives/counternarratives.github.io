@@ -1,25 +1,47 @@
 .header {
 	width: 60%;
-	margin-left: 20%;
+	margin-left: 15%;
 	margin-right: 20%;
 	margin-bottom: 100px;
 	background-color: #F6AE2D;
+	border: 5px solid #86BBD8;
 	height: 600px;
-	padding-top: 200px;
+	padding-top: 100px;
 	padding-left: 100px;
 	padding-right: 50px;
 	color: #2F4858;
+}
+img {
+	width: 50%;
+	height: auto;
+	border: 3px solid #86BBD8;
 }
 .body-copy{
 	width: 60%;
-	margin-left: 20%;
+	margin-left: 15%;
 	margin-right: 20%;
 	margin-bottom: 100px;
 	background-color: #F6AE2D;
+	border: 5px solid #86BBD8;
 	padding-left: 100px;
 	padding-right: 50px;
+	padding-bottom: 100px;
 	color: #2F4858;
 }
+#end {
+	background-color: #F6AE2D;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: #2F4858;
+	border: 5px solid #86BBD8;
+}
+a {
+	color: #33658A;
+}
+
+/*FONTS*/
 .ubuntu-bold {
   font-family: "Ubuntu", serif;
   font-weight: 700;
@@ -37,11 +59,22 @@
     "wdth" 100;
 }
 
-#end {
-	background-color: #F6AE2D;
-	width: 100%;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	text-align: center;
-	color: #2F4858;
+@media only screen and (max-width: 600px){
+ 
+	.header {
+		width: auto;
+		padding-left: 5%;
+		margin-left: 0px;
+		margin-right: 0px;
+		height: auto;
+	}
+	.body-copy{
+		width: auto;
+		padding-left: 5%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.ubuntu-bold {
+  		line-height: 30px;
+	}
 }
