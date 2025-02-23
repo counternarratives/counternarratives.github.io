@@ -1,10 +1,12 @@
-.header {
+/*Color palette: https://coolors.co/2f4858-33658a-86bbd8-f6ae2d-f26419*/
+
+.photo-story {
 	width: 60%;
 	margin-left: 15%;
 	margin-right: 20%;
 	margin-bottom: 100px;
-	background-color: #F6AE2D;
-	border: 5px solid #86BBD8;
+	background-color: #86BBD8;
+	border: 5px solid #F26419;
 	height: 600px;
 	padding-top: 100px;
 	padding-left: 100px;
@@ -17,9 +19,9 @@ img {
 	border: 3px solid #86BBD8;
 }
 .body-copy{
-	width: 60%;
-	margin-left: 15%;
-	margin-right: 20%;
+	width: 80%;
+	margin-left: 5%;
+	margin-right: 10%;
 	margin-bottom: 100px;
 	background-color: #F6AE2D;
 	border: 5px solid #86BBD8;
@@ -71,7 +73,7 @@ h4 {
 
 @media only screen and (max-width: 600px){
  
-	.header {
+	.photo-story {
 		width: auto;
 		padding-left: 5%;
 		margin-left: 0px;
@@ -84,7 +86,13 @@ h4 {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
-	.ubuntu-bold {
-  		line-height: 30px;
+	.ubuntu-bold, #end {
+  		line-height: 40px;
+	}
+	.open-sans-copy {
+		font-size: 25px;
+	}
+	img {
+		width: 80%;
 	}
 }
