@@ -79,14 +79,15 @@ h4 {
  
 	.photo-story {
 		width: auto;
-		padding-left: 5%;
+/*		padding-left: 5%;*/
 		margin-left: 0px;
 		margin-right: 0px;
 		height: auto;
+		font-size: 25px;
 	}
 	.body-copy{
 		width: auto;
-		padding-left: 5%;
+/*		padding-left: 5%;*/
 		margin-left: 0px;
 		margin-right: 0px;
 	}
