@@ -79,18 +79,14 @@ h4 {
  
 	.photo-story {
 		width: auto;
-		/*margin-left: 0px;
-		margin-right: 0px;*/
-		padding-left: 5%;
+/*		padding-left: 5%;*/
 		height: auto;
 		font-size: 25px;
 		line-height: 40px;
 	}
 	.body-copy{
 		width: auto;
-		/*margin-left: 0px;
-		margin-right: 0px;*/
-		padding-left: 5%;
+/*		padding-left: 5%;*/
 		line-height: 40px;
 	}
 	.ubuntu-bold, #end {
