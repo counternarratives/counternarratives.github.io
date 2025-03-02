@@ -31,7 +31,6 @@ img {
 	color: #2F4858;
 }
 #subhed {
-/*	width: 80%;*/
 	font-size: 20px;
 }
 #end {
@@ -80,8 +79,8 @@ h4 {
  
 	.photo-story {
 		width: auto;
-		margin-left: 0px;
-		margin-right: 0px;
+		/*margin-left: 0px;
+		margin-right: 0px;*/
 		padding-left: 5%;
 		height: auto;
 		font-size: 25px;
@@ -89,8 +88,8 @@ h4 {
 	}
 	.body-copy{
 		width: auto;
-		margin-left: 0px;
-		margin-right: 0px;
+		/*margin-left: 0px;
+		margin-right: 0px;*/
 		padding-left: 5%;
 		line-height: 40px;
 	}
