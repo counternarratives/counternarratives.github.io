@@ -1,8 +1,5 @@
 /*Color palette: https://coolors.co/2f4858-33658a-86bbd8-f6ae2d-f26419*/
 
-body {
-  background-color: #2F4858;
-}
 .photo-story {
 	width: 60%;
 	margin-left: 15%;
@@ -79,9 +76,10 @@ h4 {
 	}
 
 
-	.body-copy{
-		width: auto;
-		line-height: 40px;
+.body-copy{
+	width: auto;
+/*		padding-left: 5%;*/
+	line-height: 40px;
 	}
 	.ubuntu-bold, #end {
   		line-height: 40px;
@@ -99,41 +97,13 @@ h4 {
 }
 
 @media only screen and (max-width: 600px) {
-  * {
-    box-sizing: border-box;
-  }
-
   .photo-story,
   .body-copy {
-    width: 95%;
-    padding: 5%;
+    width: 90%;
+    padding: 1rem;
     margin: 1rem auto;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    overflow-wrap: break-word;
-    height: auto;
+    font-size: 1.2rem;
   }
-
-  .open-sans-copy {
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .ubuntu-bold,
-  #end {
-    line-height: 1.4;
-    font-size: 1.4rem;
-  }
-
-  #subhed {
-    font-size: 1rem;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
 
   .open-sans-copy {
     font-size: 1.1rem;
@@ -162,7 +132,6 @@ h4 {
     padding: 2rem;
     margin: 2rem auto;
     font-size: 1.1rem;
-    height: auto;
   }
 
   .open-sans-copy {
@@ -216,7 +185,7 @@ h4 {
   }
 
   img {
-    width: 55%;
+    width: 50%;
   }
 
   #subhed {
