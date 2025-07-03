@@ -1,5 +1,11 @@
 /*Color palette: https://coolors.co/2f4858-33658a-86bbd8-f6ae2d-f26419*/
 
+body {
+  background-color: #2F4858;
+}
+a:hover {
+  background-color: #F26419;
+}
 .photo-story {
 	width: 60%;
 	margin-left: 15%;
@@ -75,18 +81,9 @@ h4 {
     	"wdth" 100;
 	}
 
-@media only screen and (max-width: 600px){
- 
-	.photo-story {
-		width: auto;
-/*		padding-left: 5%;*/
-		height: auto;
-		font-size: 25px;
-		line-height: 40px;
-	}
+
 	.body-copy{
 		width: auto;
-/*		padding-left: 5%;*/
 		line-height: 40px;
 	}
 	.ubuntu-bold, #end {
@@ -98,4 +95,133 @@ h4 {
 	img {
 		width: 80%;
 	}
+}
+
+:root {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+  .photo-story,
+  .body-copy {
+    width: 95%;
+    padding: 5%;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+    height: auto;
+  }
+
+  .open-sans-copy {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .ubuntu-bold,
+  #end {
+    line-height: 1.4;
+    font-size: 1.4rem;
+  }
+
+  #subhed {
+    font-size: 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+  .open-sans-copy {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .ubuntu-bold,
+  #end {
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #subhed {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .photo-story,
+  .body-copy {
+    width: 85%;
+    padding: 2rem;
+    margin: 2rem auto;
+    font-size: 1.1rem;
+    height: auto;
+  }
+
+  .open-sans-copy {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .ubuntu-bold {
+    font-size: 2rem;
+  }
+
+  #end {
+    font-size: 1.2rem;
+  }
+
+  img {
+    width: 70%;
+  }
+
+  #subhed {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .photo-story {
+    width: 60%;
+    padding: 4rem 3rem;
+    margin: 3rem auto;
+    font-size: 1rem;
+  }
+
+  .body-copy {
+    width: 80%;
+    padding: 4rem 3rem;
+    margin: 3rem auto;
+    font-size: 1rem;
+  }
+
+  .open-sans-copy {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .ubuntu-bold {
+    font-size: 2.5rem;
+  }
+
+  #end {
+    font-size: 1.2rem;
+  }
+
+  img {
+    width: 55%;
+  }
+
+  #subhed {
+    font-size: 1.25rem;
+  }
 }
